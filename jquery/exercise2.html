@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercise2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>RATE A MOVIE</h1>
+    <form action="">
+      <input
+        type="text"
+        name=""
+        id="titleInput"
+        placeholder="Enter a Moviet Title"
+      />
+      <input
+        type="number"
+        name=""
+        id="ratingInput"
+        placeholder="Enter a numeric rating"
+      />
+      <button type="submit" id="submit">SUBMIT</button>
+    </form>
+    <ul class="movieList">
+      <div class="sortBox">
+        <label for="sort">Sort list</label>
+        <select name="" id="sort">
+          <option value="select">Select a filter</option>
+          <!-- <option value="byRating">By Rating</option> -->
+          <option value="byTitle">By Title</option>
+        </select>
+      </div>
+    </ul>
+    <template>
+      <li>
+        <span class="title">MOVIE TITLE</span> <span class="rating">RATING</span
+        ><button class="delete">DELETE</button>
+      </li>
+    </template>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="exercise2.js"></script>
+  </body>
+</html>

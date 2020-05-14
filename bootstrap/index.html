@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!-- $$$$$$$$$$$$$- auto sizing -$$$$$$$$$$$$$-->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <div class="container">
+      <div class="row m-4">
+        <div class="col bg-danger m-1">A</div>
+        <div class="col bg-warning p-3 m-2">A</div>
+        <div class="col bg-success m-3">A</div>
+        <div class="col bg-primary mx-2 px-4">A</div>
+      </div>
+    </div>
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!-- auto grid -->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col">LEFT</div>
+        <div class="col col-xl-8 bg-primary">MAIN CONTENT</div>
+        <div class="col">RIGHT</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-xl-3">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1589381835827-eaaa78dac381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top shadow-lg"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text shadow-lg">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1589381835827-eaaa78dac381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-xl-3">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1589381835827-eaaa78dac381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xl-3">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1589381835827-eaaa78dac381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!-- nested grid -->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <div class="containter-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="alert alert-danger">
+            <div class="row">
+              <div class="col-6 bg-success">
+                TEST
+                <button type="button" class="btn btn-info">CLICK ME</button>
+              </div>
+              <div class="col-6 bg-primary">
+                TEST
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+    <!--  grid flex -->
+    <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-->
+
+    <div class="container containter-fluid">
+      <div class="row border justify-content-between">
+        <div class="col-3">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-success mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-white bg-warning mb-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******************************************** -->
+    <!-- **********************SCRIPTS********************** -->
+    <!-- ******************************************** -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

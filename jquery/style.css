@@ -1,0 +1,15 @@
+img {
+  height: 500px;
+}
+
+.highlight {
+  color: yellowgreen;
+  border: 2px solid salmon;
+  font-size: 20px;
+}
+
+.darken {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.349);
+}
